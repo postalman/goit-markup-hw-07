@@ -463,40 +463,35 @@
         </div>
         <div class="subscribe">
           <p class="subscribe-text">Subscribe</p>
-          <form name="signup">
-            <ul class="sub-form">
-              <li class="e-mail-form">
-                <label for="signup-mail"></label>
-                <input
-                  name="email"
-                  type="email"
-                  class="mail-form"
-                  placeholder="E-mail"
-                />
-              </li>
-              <li class="e-mail-button">
-                <button type="submit" class="sub-button">
-                  Subcribe<span class="sub-mail-svg">
-                    <svg class="footer-mail-svg">
-                      <use href="./images/icons.svg#icon-Twitter-footer"></use>
-                    </svg>
-                  </span>
-                </button>
-              </li>
-            </ul>
+          <form class="sub-form">
+            <label for="signup-mail"></label>
+            <input
+              name="email"
+              type="email"
+              class="mail-form"
+              id="signup-mail"
+              placeholder="E-mail"
+            />
+
+            <button type="submit" class="sub-button">
+              Subcribe
+              <svg class="footer-mail-svg">
+                <use href="./images/icons.svg#icon-Twitter-footer"></use>
+              </svg>
+            </button>
           </form>
         </div>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button class="modal-button" data-modal-close>
+        <button type="button" class="modal-button" data-modal-close>
           <svg class="modal-button-close">
             <use href="./images/icons.svg#icon-close-button"></use>
           </svg>
         </button>
         <p class="modal-text">Leave your contacts and we will call you back</p>
-        <form class="form" type="text" name="user-name">
+        <form class="form" name="user-name">
           <ul class="modal-data">
             <li class="modal-form-data">
               <label for="name">Name</label>
@@ -505,7 +500,6 @@
                   name="name"
                   type="text"
                   class="modal-input-hover"
-                  name="name"
                   id="name"
                   autofocus
                 />
@@ -521,7 +515,6 @@
                   name="phone"
                   type="tel"
                   class="modal-input-hover"
-                  name="tel"
                   id="tel"
                 />
                 <svg class="modal-svg">
@@ -536,7 +529,6 @@
                   name="email"
                   type="email"
                   class="modal-input-hover"
-                  name="mail"
                   id="mail"
                 />
                 <svg class="modal-svg">
@@ -544,7 +536,7 @@
                 </svg>
               </div>
             </li>
-            <li class="modal-form-data">
+            <li class="modal-form-data margin">
               <label for="comment">Comment</label>
               <textarea
                 class="comment"

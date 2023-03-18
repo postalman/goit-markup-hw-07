@@ -310,9 +310,7 @@
       </section>
     </main>
 
-    <!-- Footer -->
-
-    <footer class="footer">
+    <<footer class="footer">
       <div class="container footer-flex">
         <div class="footer-box">
           <a href="./index.html" class="logo-footer"
@@ -358,27 +356,22 @@
         </div>
         <div class="subscribe">
           <p class="subscribe-text">Subscribe</p>
-          <form name="signup">
-            <ul class="sub-form">
-              <li class="e-mail-form">
-                <label for="signup-mail"></label>
-                <input
-                  name="email"
-                  type="email"
-                  class="mail-form"
-                  placeholder="E-mail"
-                />
-              </li>
-              <li class="e-mail-button">
-                <button type="submit" class="sub-button">
-                  Subcribe<span class="sub-mail-svg">
-                    <svg class="footer-mail-svg">
-                      <use href="./images/icons.svg#icon-Twitter-footer"></use>
-                    </svg>
-                  </span>
-                </button>
-              </li>
-            </ul>
+          <form class="sub-form">
+            <label for="signup-mail"></label>
+            <input
+              name="email"
+              type="email"
+              class="mail-form"
+              id="signup-mail"
+              placeholder="E-mail"
+            />
+
+            <button type="submit" class="sub-button">
+              Subcribe
+              <svg class="footer-mail-svg">
+                <use href="./images/icons.svg#icon-Twitter-footer"></use>
+              </svg>
+            </button>
           </form>
         </div>
       </div>
