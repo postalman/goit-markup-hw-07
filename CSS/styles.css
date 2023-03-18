@@ -884,7 +884,8 @@ top: 50%;
 .modal-input-hover:hover + .modal-svg,
 .modal-input-hover:focus + .modal-svg {fill: var(--accent-color);}
 
-.modal-svg-border {position: relative;}
+.modal-svg-border {position: relative;
+margin-bottom: 8px;}
 
 .checkbox-icon {
   width: 16px;
