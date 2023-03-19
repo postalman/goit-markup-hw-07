@@ -112,6 +112,7 @@
 }
 
 @media screen and (min-width: 768px) {
+  .mob-menu {display: none;}
   .header-mob-button {display: none;}
   .container {
     width: 768px;
