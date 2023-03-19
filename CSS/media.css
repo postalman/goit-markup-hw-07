@@ -5,6 +5,16 @@
 }
 
 @media screen and (max-width: 767px) {
+  .main-nav {width: 100%;
+    align-items: center;
+  justify-content: space-between;}
+  .adress-nav {padding: 0;}
+  .menu-nav {
+    display: none;
+  }
+  .mail-tel {
+    display: none;
+  }
   .hero-title {
     font-size: 36px;
     line-height: 1.11;
@@ -102,6 +112,7 @@
 }
 
 @media screen and (min-width: 768px) {
+  .header-mob-button {display: none;}
   .container {
     width: 768px;
   }
@@ -153,7 +164,7 @@
   .customers-logo-link {
     width: 168px;
   }
-  
+
   /* Footer */
 
   .footer {
@@ -205,15 +216,19 @@
     font-size: 20px;
     line-height: 1.2;
   }
-  .section-text {font-weight: 400;
+  .section-text {
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;}
+    letter-spacing: 0.02em;
+  }
   .footer-box {
     margin-right: 80px;
   }
   .footer-flex {
     padding: 0;
   }
-  .footer-text {font-weight: 400;}
+  .footer-text {
+    font-weight: 400;
+  }
 }

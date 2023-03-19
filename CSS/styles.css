@@ -923,4 +923,17 @@ border: none;}
       display: flex;
       flex-wrap: wrap;}
 
+ .header-mob-button {
+  border: none;
+  background: transparent;
+}
+ .header-nav-button {
+  display: block;
+  width: 32px;
+  height: 22px;}
+
+.mob-menu ul {list-style: none;}
+.mob-team-social-list {display: flex;
+  gap: 56px;
+}
       
