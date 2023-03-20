@@ -2,13 +2,35 @@
   .container {
     width: 428px;
   }
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/Dark-bg-tab.jpg);
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/Dark-bg-tab-2x.jpg);
+    }
+  }
 }
 
 @media screen and (max-width: 767px) {
-  .main-nav {width: 100%;
+  .main-nav {
+    width: 100%;
     align-items: center;
-  justify-content: space-between;}
-  .adress-nav {padding: 0;}
+    justify-content: space-between;
+  }
+  .adress-nav {
+    padding: 0;
+  }
   .menu-nav {
     display: none;
   }
@@ -112,8 +134,30 @@
 }
 
 @media screen and (min-width: 768px) {
-  .mob-menu {display: none;}
-  .header-mob-button {display: none;}
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/group-people-working-website-template.jpg);
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/Dark-bg-pc-2x.jpg);
+    }
+  }
+  .mob-menu {
+    display: none;
+  }
+  .header-mob-button {
+    display: none;
+  }
   .container {
     width: 768px;
   }
@@ -194,10 +238,65 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
+  .header-flex {
+    display: flex;
+    height: 72px;
+  }
+  .adress-nav {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  .address-link {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+  }
+  .nav-title-address {
+    margin-bottom: 12px;
+  }
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/group-people-working-website-template.jpg);
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/Dark-bg-pc-2x.jpg);
+    }
+  }
 }
 
 @media screen and (min-width: 1200px) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/group-people-working-website-template.jpg);
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/Dark-bg-pc-2x.jpg);
+    }
+  }
   .section-what {
+    display: flex;
+  }
+  .header-flex {
     display: flex;
   }
   .container {
@@ -222,6 +321,12 @@
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+  }
+  .nav-title-address {
+    margin-right: 40px;
+  }
+  .mail-tel {
+    display: flex;
   }
   .footer-box {
     margin-right: 80px;
