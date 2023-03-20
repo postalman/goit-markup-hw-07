@@ -428,6 +428,7 @@ textarea {
 .filters {
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
 
   justify-content: center;
 
