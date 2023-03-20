@@ -15,47 +15,115 @@
       href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./CSS/styles.css" />
-    <link rel="stylesheet" href="./CSS/media.css">
+    <link rel="stylesheet" href="./CSS/media.css" />
 
     <title>Portfolio</title>
   </head>
   <body>
     <!-- Top Line -->
 
-    <header class="page-header main-nav">
-      <div class="container main-nav">
+    <header class="page-header">
+      <div class="container header-flex">
         <nav class="nav main-nav">
           <!-- Logo -->
           <a href="./index.html" class="logo-header"
             ><span class="span-header">WEB</span>STUDIO</a
           >
+          <button type="button" data-menu-open class="header-mob-button">
+            <svg class="header-nav-button">
+              <use href="./images/icons.svg#icon-charm_menu"></use>
+            </svg>
+          </button>
+
           <!-- Menu Nav -->
           <ul class="menu-nav main-nav">
             <li class="nav-title">
-              <a class="nav-link" href="./index.html">Studio</a>
+              <a class="nav-link nav-link-border" href="./index.html">Studio</a>
             </li>
             <li class="nav-title">
-              <a class="nav-link nav-link-border" href="./portfolio.html"
-                >Portfolio</a
-              >
+              <a class="nav-link" href="./portfolio.html">Portfolio</a>
             </li>
             <li class="nav-title"><a class="nav-link" href="#">Contacts</a></li>
           </ul>
         </nav>
         <address class="adress-nav">
-          <ul class="mail-tel main-nav">
-            <li class="nav-title">
+          <ul class="mail-tel">
+            <li class="nav-title-address">
               <a class="address-link" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
-            <li class="nav-title">
+            <li class="nav-title-address">
               <a class="address-link" href="tel:+110001111111"
                 >+11 (000) 111-11-11</a
               >
             </li>
           </ul>
         </address>
+      </div>
+      <div class="mob-menu is-hidden" data-menu>
+        <button type="button" data-menu-close class="mob-modal-button">
+          <svg class="modal-button-close">
+            <use href="./images/icons.svg#icon-close-button"></use>
+          </svg>
+        </button>
+        <div class="mob-menu-list">
+          <ul class="mob-menu-nav">
+            <li class="mob-nav-title">
+              <a class="mob-nav-link" href="./index.html">Studio</a>
+            </li>
+            <li class="mob-nav-title">
+              <a class="mob-nav-link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="mob-nav-title">
+              <a class="mob-nav-link" href="#">Contacts</a>
+            </li>
+          </ul>
+        </div>
+        <div class="mob-menu-address">
+          <ul class="mob-mail-tel">
+            <li class="mob-nav-title">
+              <a class="mob-tel-link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+            <li class="mob-nav-title">
+              <a class="mob-mail-link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+          <ul class="mob-team-social-list">
+            <li class="mob-team-social-links">
+              <a href="#" class="mob-team-social-list-links">
+                <svg class="mob-social-icons">
+                  <use href="./images/icons.svg#icon-instagram-2-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-team-social-links">
+              <a href="#" class="mob-team-social-list-links">
+                <svg class="mob-social-icons">
+                  <use href="./images/icons.svg#icon-twitter-1-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-team-social-links">
+              <a href="#" class="mob-team-social-list-links">
+                <svg class="mob-social-icons">
+                  <use href="./images/icons.svg#icon-facebook-1-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-team-social-links">
+              <a href="#" class="mob-team-social-list-links">
+                <svg class="mob-social-icons">
+                  <use href="./images/icons.svg#icon-linkedin-1-1"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
 
@@ -377,5 +445,6 @@
         </div>
       </div>
     </footer>
+    <script src="./js/mod.js"></script>
   </body>
 </html>
