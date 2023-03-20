@@ -7,7 +7,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/Dark-bg-tab.jpg);
+      url(../images/Dark-bg-mob.jpg);
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -17,20 +17,29 @@
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/daniel-mob.jpg);
+        url(../images/Dark-bg-mob-2x.jpg);
     }
   }
-  .modal {width: 392px;
-  height: 586px;}
+  .modal {
+    width: 392px;
+    height: 586px;
+  }
 }
 
 @media screen and (max-width: 767px) {
-  .mob-team-social-list {gap: 24px;}
-  .mob-tel-link {font-size: 25px;}
-  .modal {width: 100%;
-    height: auto;
+  .mob-team-social-list {
+    gap: 24px;
   }
-  .customers-logo-svg {}
+  .mob-tel-link {
+    font-size: 25px;
+  }
+  .modal {
+    width: 100%;
+    height: auto;
+    max-width: 392px;
+  }
+  .customers-logo-svg {
+  }
   .main-nav {
     width: 100%;
     align-items: center;
@@ -141,14 +150,29 @@
   }
 }
 
+@media screen and (max-width: 479px) {
+  .modal {
+    width: 100%;
+    height: auto;
+    max-width: 392px;
+  }
+  .mob-team-social-list {
+    gap: 24px;
+  }
+}
+
 @media screen and (min-width: 768px) {
-  .customers-logo-svg {width: auto;}
+  .customers-logo-svg {
+    width: auto;
+  }
   .hero {
+    padding-top: 188px;
+    padding-bottom: 188px;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/group-people-working-website-template.jpg);
+      url(../images/Dark-bg-tab.jpg);
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -158,7 +182,7 @@
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/Dark-bg-pc-2x.jpg);
+        url(../images/Dark-bg-tab-2x.jpg);
     }
   }
   .mob-menu {
@@ -243,13 +267,13 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-
   .feature-list {
     column-gap: 24px;
     row-gap: 72px;
     text-align: left;
     margin-bottom: 96px;
-  padding-top: 96px;}
+    padding-top: 96px;
+  }
   .header-flex {
     display: flex;
     height: 72px;
@@ -271,7 +295,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/group-people-working-website-template.jpg);
+      url(../images/Dark-bg-tab.jpg);
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -281,23 +305,25 @@
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/Dark-bg-pc-2x.jpg);
+        url(../images/Dark-bg-tab-2x.jpg);
     }
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .section {padding-top: 120px;
-    padding-bottom: 120px};
+  .section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
   .hero {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/people-office-1.jpg);
-      padding-top: 188px;
-      padding-bottom: 188px;
-      max-width: 1440px;
+    padding-top: 188px;
+    padding-bottom: 188px;
+    max-width: 1440px;
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -310,7 +336,8 @@
         url(../images/Dark-bg-pc-2x.jpg);
     }
   }
-  .section-what {padding-top: 120px;
+  .section-what {
+    padding-top: 120px;
     padding-bottom: 120px;
     display: flex;
   }
@@ -326,7 +353,9 @@
   .feature {
     width: 264px;
   }
-  .feature-section {padding-top: 120px;}
+  .feature-section {
+    padding-top: 120px;
+  }
   .subscribe {
     margin-left: 80px;
   }
@@ -356,6 +385,8 @@
   .footer-text {
     font-weight: 400;
   }
-  .footer {padding-top: 100px;
-    padding-bottom: 100px;}
+  .footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
 }
