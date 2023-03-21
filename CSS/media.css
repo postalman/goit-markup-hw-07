@@ -27,17 +27,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .mob-team-social-list {
-    gap: 24px;
-  }
-  .mob-tel-link {
-    font-size: 25px;
-  }
-  .modal {
-    width: 100%;
-    height: auto;
-    max-width: 392px;
-  }
+
   .customers-logo-svg {
   }
   .main-nav {
@@ -159,6 +149,12 @@
   .mob-team-social-list {
     gap: 24px;
   }
+  .mob-tel-link {
+    font-size: 25px;
+  }
+  .mob-team-social-list {
+    gap: 24px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -255,9 +251,7 @@
   .footer-box {
     margin-right: 24px;
   }
-  .footer-social-list {
-    margin-bottom: 72px;
-  }
+  
   .sub-form input {
     margin-bottom: 16px;
   }
@@ -267,6 +261,11 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
+  .modal {width: 408px;
+  min-height: 584px;}
+  .footer-social-list {
+    margin-bottom: 72px;
+  }
   .feature-list {
     column-gap: 24px;
     row-gap: 72px;
@@ -291,6 +290,8 @@
     margin-bottom: 12px;
   }
   .hero {
+    padding-top: 112px;
+    padding-bottom: 112px;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
